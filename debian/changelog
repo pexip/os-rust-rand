@@ -1,0 +1,99 @@
+rust-rand (0.8.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand 0.8.4 from crates.io using debcargo 2.5.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 09:02:24 +0000
+
+rust-rand (0.8.4-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package rand 0.8.4 from crates.io using debcargo 2.5.0
+  * Drop mmx patch - included upstream.
+  * Set collapse_features = true
+  * Drop packed_simd feature.
+  * Mark as broken tests that fail due to the setting of no-default-features
+    in recent debcargo.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jan 2022 15:17:04 +0000
+
+rust-rand (0.7.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand 0.7.3 from crates.io using debcargo 2.4.3
+  * Apply upstream patch for removal of mmx in rustc (Closes: 977489).
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 04 Jan 2021 00:23:18 +0000
+
+rust-rand (0.7.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package rand 0.7.3 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 11:20:12 +0200
+
+rust-rand (0.7.3-1) unstable; urgency=medium
+
+  * Source upload
+  * Package rand 0.7.3 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 29 Aug 2020 11:07:25 +0200
+
+rust-rand (0.7.2-1) unstable; urgency=medium
+
+  * Source upload
+  * Package rand 0.7.2 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 27 Sep 2019 18:20:32 +0200
+
+rust-rand (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package rand 0.7.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 04 Sep 2019 23:17:56 -0700
+
+rust-rand (0.6.4-2) unstable; urgency=medium
+
+  * Source upload
+  * Package rand 0.6.4 from crates.io using debcargo 2.3.1-alpha.0
+  * Previous upload included binary. Doing a source-only re-upload to allow
+    testing migration.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 12 Jul 2019 06:46:55 +0200
+
+rust-rand (0.6.4-1) unstable; urgency=medium
+
+  * Source upload
+  * Package rand 0.6.4 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 20 Jan 2019 13:23:04 -0800
+
+rust-rand (0.5.5-2) unstable; urgency=medium
+
+  * Source upload
+  * Package rand 0.5.5 from crates.io using debcargo 2.2.8
+  * Remove the build dep on fuchsia-zircon
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 25 Oct 2018 08:52:41 +0200
+
+rust-rand (0.5.5-1) unstable; urgency=medium
+
+  * Source upload
+  * Package rand 0.5.5 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 04 Oct 2018 11:55:16 +0200
+
+rust-rand (0.5.4-1) unstable; urgency=medium
+
+  * Source upload
+  * Package rand 0.5.4 from crates.io using debcargo 2.2.4
+
+  [ Wolfgang Silbermayr ]
+  * Source upload
+  * Package rand 0.5.4 from crates.io using debcargo 2.2.3
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 29 Jul 2018 07:38:50 -0700

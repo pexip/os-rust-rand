@@ -1,0 +1,13 @@
+overlay = "."
+uploaders = ["Wolfgang Silbermayr <wolfgang@silbermayr.at>"]
+excludes = ["benches/**"]
+
+# The auto-generated summary is too long.
+summary = "Randomness functionality, number generators"
+collapse_features = true
+
+[packages."lib+min_const_gen"]
+test_is_broken = true
+
+[packages."lib+serde1"]
+test_is_broken = true
