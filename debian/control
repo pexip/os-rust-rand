@@ -14,14 +14,16 @@ Build-Depends: debhelper (>= 12),
  librust-rand-core-0.6+getrandom-dev <!nocheck>,
  librust-rand-core-0.6+std-dev <!nocheck>,
  librust-rand-hc-0.3+default-dev <!nocheck>
-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+XSBC-Pexip-Original-Uploaders:
  Wolfgang Silbermayr <wolfgang@silbermayr.at>
 Standards-Version: 4.5.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand
 Homepage: https://rust-random.github.io/book
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
 Package: librust-rand-dev
 Architecture: any
