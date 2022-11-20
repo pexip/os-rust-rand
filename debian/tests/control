@@ -1,79 +1,74 @@
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --all-features
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --all-features
 Features: test-name=rust-rand:@
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable, flaky
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features alloc
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features alloc
 Features: test-name=librust-rand-dev:alloc
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets 
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets
 Features: test-name=librust-rand-dev:default
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features getrandom
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features getrandom
 Features: test-name=librust-rand-dev:getrandom
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features libc
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features libc
 Features: test-name=librust-rand-dev:libc
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features log
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features log
 Features: test-name=librust-rand-dev:log
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features min_const_gen
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features min_const_gen
 Features: test-name=librust-rand-dev:min_const_gen
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable, flaky
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features nightly
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features nightly
 Features: test-name=librust-rand-dev:nightly
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features rand_chacha
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features rand_chacha
 Features: test-name=librust-rand-dev:rand_chacha
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features rand_hc
-Features: test-name=librust-rand-dev:rand_hc
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
-Restrictions: allow-stderr, skip-not-installable
-
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features serde
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features serde
 Features: test-name=librust-rand-dev:serde
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features serde1
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features serde1
 Features: test-name=librust-rand-dev:serde1
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable, flaky
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features small_rng
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features small_rng
 Features: test-name=librust-rand-dev:small_rng
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features std
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features std
 Features: test-name=librust-rand-dev:std
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features --features std_rng
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features --features std_rng
 Features: test-name=librust-rand-dev:std_rng
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable
 
-Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.4 --all-targets --no-default-features
+Test-Command: /usr/share/cargo/bin/cargo-auto-test rand 0.8.5 --all-targets --no-default-features
 Features: test-name=librust-rand-dev:
-Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-hc-0.3+default-dev, librust-rand-pcg-0.3+default-dev, @
+Depends: dh-cargo (>= 18), librust-bincode-1+default-dev (>= 1.2.1-~~), librust-rand-pcg-0.3+default-dev, @
 Restrictions: allow-stderr, skip-not-installable

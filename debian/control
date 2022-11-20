@@ -12,15 +12,15 @@ Build-Depends: debhelper (>= 12),
  librust-rand-core-0.6+alloc-dev <!nocheck>,
  librust-rand-core-0.6+default-dev <!nocheck>,
  librust-rand-core-0.6+getrandom-dev <!nocheck>,
- librust-rand-core-0.6+std-dev <!nocheck>,
- librust-rand-hc-0.3+default-dev <!nocheck>
+ librust-rand-core-0.6+std-dev <!nocheck>
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Uploaders:
  Wolfgang Silbermayr <wolfgang@silbermayr.at>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand
 Homepage: https://rust-random.github.io/book
+X-Cargo-Crate: rand
 Rules-Requires-Root: no
 
 Package: librust-rand-dev
@@ -37,7 +37,6 @@ Depends:
  librust-rand-core-0.6+getrandom-dev,
  librust-rand-core-0.6+serde1-dev,
  librust-rand-core-0.6+std-dev,
- librust-rand-hc-0.3+default-dev,
  librust-serde-1+default-dev (>= 1.0.103-~~),
  librust-serde-1+derive-dev (>= 1.0.103-~~)
 Provides:
@@ -49,7 +48,6 @@ Provides:
  librust-rand+min-const-gen-dev (= ${binary:Version}),
  librust-rand+nightly-dev (= ${binary:Version}),
  librust-rand+rand-chacha-dev (= ${binary:Version}),
- librust-rand+rand-hc-dev (= ${binary:Version}),
  librust-rand+serde-dev (= ${binary:Version}),
  librust-rand+serde1-dev (= ${binary:Version}),
  librust-rand+small-rng-dev (= ${binary:Version}),
@@ -64,7 +62,6 @@ Provides:
  librust-rand-0+min-const-gen-dev (= ${binary:Version}),
  librust-rand-0+nightly-dev (= ${binary:Version}),
  librust-rand-0+rand-chacha-dev (= ${binary:Version}),
- librust-rand-0+rand-hc-dev (= ${binary:Version}),
  librust-rand-0+serde-dev (= ${binary:Version}),
  librust-rand-0+serde1-dev (= ${binary:Version}),
  librust-rand-0+small-rng-dev (= ${binary:Version}),
@@ -79,27 +76,25 @@ Provides:
  librust-rand-0.8+min-const-gen-dev (= ${binary:Version}),
  librust-rand-0.8+nightly-dev (= ${binary:Version}),
  librust-rand-0.8+rand-chacha-dev (= ${binary:Version}),
- librust-rand-0.8+rand-hc-dev (= ${binary:Version}),
  librust-rand-0.8+serde-dev (= ${binary:Version}),
  librust-rand-0.8+serde1-dev (= ${binary:Version}),
  librust-rand-0.8+small-rng-dev (= ${binary:Version}),
  librust-rand-0.8+std-dev (= ${binary:Version}),
  librust-rand-0.8+std-rng-dev (= ${binary:Version}),
- librust-rand-0.8.4-dev (= ${binary:Version}),
- librust-rand-0.8.4+alloc-dev (= ${binary:Version}),
- librust-rand-0.8.4+default-dev (= ${binary:Version}),
- librust-rand-0.8.4+getrandom-dev (= ${binary:Version}),
- librust-rand-0.8.4+libc-dev (= ${binary:Version}),
- librust-rand-0.8.4+log-dev (= ${binary:Version}),
- librust-rand-0.8.4+min-const-gen-dev (= ${binary:Version}),
- librust-rand-0.8.4+nightly-dev (= ${binary:Version}),
- librust-rand-0.8.4+rand-chacha-dev (= ${binary:Version}),
- librust-rand-0.8.4+rand-hc-dev (= ${binary:Version}),
- librust-rand-0.8.4+serde-dev (= ${binary:Version}),
- librust-rand-0.8.4+serde1-dev (= ${binary:Version}),
- librust-rand-0.8.4+small-rng-dev (= ${binary:Version}),
- librust-rand-0.8.4+std-dev (= ${binary:Version}),
- librust-rand-0.8.4+std-rng-dev (= ${binary:Version})
+ librust-rand-0.8.5-dev (= ${binary:Version}),
+ librust-rand-0.8.5+alloc-dev (= ${binary:Version}),
+ librust-rand-0.8.5+default-dev (= ${binary:Version}),
+ librust-rand-0.8.5+getrandom-dev (= ${binary:Version}),
+ librust-rand-0.8.5+libc-dev (= ${binary:Version}),
+ librust-rand-0.8.5+log-dev (= ${binary:Version}),
+ librust-rand-0.8.5+min-const-gen-dev (= ${binary:Version}),
+ librust-rand-0.8.5+nightly-dev (= ${binary:Version}),
+ librust-rand-0.8.5+rand-chacha-dev (= ${binary:Version}),
+ librust-rand-0.8.5+serde-dev (= ${binary:Version}),
+ librust-rand-0.8.5+serde1-dev (= ${binary:Version}),
+ librust-rand-0.8.5+small-rng-dev (= ${binary:Version}),
+ librust-rand-0.8.5+std-dev (= ${binary:Version}),
+ librust-rand-0.8.5+std-rng-dev (= ${binary:Version})
 Description: Randomness functionality, number generators - Rust source code
  This package contains the source for the Rust rand crate, packaged by debcargo
  for use with cargo and dh-cargo.

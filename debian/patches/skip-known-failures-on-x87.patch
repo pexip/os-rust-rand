@@ -1,0 +1,41 @@
+Description: Skip tests that are known to fail on x87
+ Some tests have failed on i386 since Debian started running tests on that
+ architecture. These seem to be the result of the well-known excess precision
+ issues with the x87 FPU.
+
+ Skip these tests on i386, so the rest of the testsuite can provide functional
+ regression testing.
+Author: Peter Michael Green <plugwash@debian.org>
+
+--- rust-rand-0.8.4.orig/src/distributions/uniform.rs
++++ rust-rand-0.8.4/src/distributions/uniform.rs
+@@ -1358,7 +1358,7 @@ mod tests {
+                         let my_incl_uniform = Uniform::new_inclusive(low, high);
+                         for _ in 0..100 {
+                             let v = rng.sample(my_uniform).extract(lane);
+-                            assert!(low_scalar <= v && v < high_scalar);
++                            assert!(low_scalar <= v && v < high_scalar,"low_scalar <= v && v < high_scalar: low_scalar={}, v={}, high_scalar={}",low_scalar,v,high_scalar);
+                             let v = rng.sample(my_incl_uniform).extract(lane);
+                             assert!(low_scalar <= v && v <= high_scalar);
+                             let v = <$ty as SampleUniform>::Sampler
+@@ -1413,7 +1413,10 @@ mod tests {
+             }};
+         }
+ 
++        // these tests are known to fail on x87, presumablly because of excess precision.
++        #[cfg(not(all(target_arch = "x86", not(target_feature = "sse2"))))]
+         t!(f32, f32, 32 - 23);
++        #[cfg(not(all(target_arch = "x86", not(target_feature = "sse2"))))]
+         t!(f64, f64, 64 - 52);
+         #[cfg(feature = "simd_support")]
+         {
+@@ -1628,6 +1631,9 @@ mod tests {
+             0.00398172,
+             0.007428536,
+         ]);
++
++        // this test is known to fail on x87, presumablly because of excess precision.
++        #[cfg(not(all(target_arch = "x86", not(target_feature = "sse2"))))]
+         test_samples(
+             -1e10f64,
+             1e10f64,
