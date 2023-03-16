@@ -1,1 +1,2 @@
 drop-packed-simd.patch
+skip-known-failures-on-x87.patch

@@ -1,3 +1,11 @@
+rust-rand (0.8.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand 0.8.5 from crates.io using debcargo 2.6.0 (Closes: #1024375)
+  * Skip known test failures on x87.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 20 Nov 2022 07:53:51 +0000
+
 rust-rand (0.8.4-2pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging

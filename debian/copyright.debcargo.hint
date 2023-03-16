@@ -16,7 +16,7 @@ Comment:
  be correct information so you should review and fix this before uploading to
  the archive.
 
-Files: ./LICENSE-MIT
+Files: LICENSE-MIT
 Copyright:
  2018 Developers of the Rand project
  2014 The Rust Project Developers
@@ -25,14 +25,14 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/bernoulli.rs
+Files: src/distributions/bernoulli.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/distribution.rs
+Files: src/distributions/distribution.rs
 Copyright:
  2018 Developers of the Rand project.
  2013-2017 The Rust Project Developers.
@@ -41,21 +41,21 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/float.rs
+Files: src/distributions/float.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/integer.rs
+Files: src/distributions/integer.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/mod.rs
+Files: src/distributions/mod.rs
 Copyright:
  2018 Developers of the Rand project.
  2013-2017 The Rust Project Developers.
@@ -64,21 +64,21 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/other.rs
+Files: src/distributions/other.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/slice.rs
+Files: src/distributions/slice.rs
 Copyright: 2021 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/uniform.rs
+Files: src/distributions/uniform.rs
 Copyright:
  2018-2020 Developers of the Rand project.
  2017 The Rust Project Developers.
@@ -87,28 +87,28 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/utils.rs
+Files: src/distributions/utils.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/weighted.rs
+Files: src/distributions/weighted.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/distributions/weighted_index.rs
+Files: src/distributions/weighted_index.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/lib.rs
+Files: src/lib.rs
 Copyright:
  2018 Developers of the Rand project.
  2013-2017 The Rust Project Developers.
@@ -117,14 +117,14 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/prelude.rs
+Files: src/prelude.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rng.rs
+Files: src/rng.rs
 Copyright:
  2018 Developers of the Rand project.
  2013-2017 The Rust Project Developers.
@@ -133,14 +133,14 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/adapter/mod.rs
+Files: src/rngs/adapter/mod.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/adapter/read.rs
+Files: src/rngs/adapter/read.rs
 Copyright:
  2018 Developers of the Rand project.
  2013 The Rust Project Developers.
@@ -149,7 +149,7 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/adapter/reseeding.rs
+Files: src/rngs/adapter/reseeding.rs
 Copyright:
  2018 Developers of the Rand project.
  2013 The Rust Project Developers.
@@ -158,63 +158,63 @@ Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/mock.rs
+Files: src/rngs/mock.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/mod.rs
+Files: src/rngs/mod.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/small.rs
+Files: src/rngs/small.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/std.rs
+Files: src/rngs/std.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/thread.rs
+Files: src/rngs/thread.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/xoshiro128plusplus.rs
+Files: src/rngs/xoshiro128plusplus.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/rngs/xoshiro256plusplus.rs
+Files: src/rngs/xoshiro256plusplus.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/seq/index.rs
+Files: src/seq/index.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
-Files: ./src/seq/mod.rs
+Files: src/seq/mod.rs
 Copyright: 2018 Developers of the Rand project.
 License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:

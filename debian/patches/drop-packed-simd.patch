@@ -1,25 +1,11 @@
-Index: rand/Cargo.toml
-===================================================================
 --- rand.orig/Cargo.toml
 +++ rand/Cargo.toml
-@@ -35,12 +35,6 @@ features = ["small_rng", "serde1"]
- version = "0.4.4"
- optional = true
- 
+@@ -38,6 +37,0 @@
 -[dependencies.packed_simd]
--version = "0.3.5"
+-version = "0.3.7"
 -features = ["into_bits"]
 -optional = true
 -package = "packed_simd_2"
 -
- [dependencies.rand_core]
- version = "0.6.0"
- 
-@@ -64,7 +58,6 @@ getrandom = ["rand_core/getrandom"]
- min_const_gen = []
- nightly = []
- serde1 = ["serde", "rand_core/serde1"]
+@@ -67 +60,0 @@
 -simd_support = ["packed_simd"]
- small_rng = []
- std = ["rand_core/std", "rand_chacha/std", "alloc", "getrandom", "libc"]
- std_rng = ["rand_chacha", "rand_hc"]
