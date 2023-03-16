@@ -1,3 +1,9 @@
+rust-rand (0.8.5-1pexip1) pexip; urgency=medium
+
+  * New upstream release
+
+ -- Huw Jones <huw@pexip.com>  Thu, 16 Mar 2023 17:58:43 +0000
+
 rust-rand (0.8.5-1) unstable; urgency=medium
 
   * Team upload.
