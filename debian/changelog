@@ -1,3 +1,9 @@
+rust-rand (0.8.5-1+pexip24u4) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:33:32 +0000
+
 rust-rand (0.8.5-1pexip3) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
